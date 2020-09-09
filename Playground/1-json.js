@@ -11,6 +11,11 @@ const fs = require('fs');
 
 const dataBuffer = fs.readFileSync('1-json.json')
 const dataJSON = dataBuffer.toString();
+const data = JSON.parse(dataJSON);
+data.name = "Samir"
+data.planet = "Earth"
+data.age = "22"
 
-const data = JSON.parse(dataJSON)
-console.log(data.title)
+const userJSON = JSON.stringify(data)
+fs.writeFileSync('1-json.json',userJSON)
+console.log(data)
