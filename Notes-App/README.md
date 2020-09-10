@@ -35,3 +35,10 @@ Options:<br>
 ***
 ### Screenshot:
 ![Images](https://github.com/samirbsh/Nodejs-Course/blob/master/Notes-App/screenshot/Output1.png)
+***
+### Debugging:
+Steps:<br>
+* add `debugger` at the point where you want debug.
+* run the code through console $> `node inspect app.js add --title="Your title here" --body="Your body here"`.
+For Windows if error persists.
+* run the code through console $> `node --inspect-brk app.js add --title="Your title here" --body="Your body here"`
