@@ -1,5 +1,6 @@
 # Notes App
-
+## Usage:
+### `npm install`
 ## Functionalities
 ***
 * add
@@ -31,3 +32,6 @@ Commands:<br>
 Options:<br>
   --help     Show help                                                [boolean]<br> 
   --version  Show version number                                       [boolean]<br> 
+***
+### Screenshot:
+![Images](https://github.com/samirbsh/Nodejs-Course/blob/master/Notes-App/screenshot/Output1.png)
